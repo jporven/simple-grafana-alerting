@@ -3,7 +3,7 @@
 Simple example of grafana alerting to telegram and telegram bot command.
 
 
-### Introduction
+##### Introduction
 **Clone repository:**
 https://github.com/jporven/simple-grafana-telegrambot-example
 
@@ -63,7 +63,7 @@ In this case:
 
 To get a telegram group ID the procedure is the same. Adding a bot to a group and excecute an URL call. The negative ID is asociated to a group. The group ID is used to allow access to a telegram bot only for group members. This restrictions need to be programmend using the telemgram bot API.
 
-####Grafana configuration
+#### Grafana configuration
 
 **Create an alert in grafana**
 [Grafana alert creation](doc/gif/grafana_create_alert.gif?raw=true "Grafana alert creation")
@@ -74,7 +74,7 @@ With a telegram bot created grafana can be configured to send notification selec
 
 **Linking alerts trigered with a notification channel**
 
-#####Telegram Bot command example to get a Grafana Pannel graph.
+##### Telegram Bot command example to get a Grafana Pannel graph.
 
 GetPanel.py: is a simple example that use a grafana api to get an image pannel and save it in a tmp location.
 MonBot.py: Take /tmp/ saved image and send to a telegram bot with the programmed bot command.
