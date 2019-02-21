@@ -7,7 +7,7 @@ Simple example of grafana alerting to telegram and telegram bot command.
 **Clone repository:**
 https://github.com/jporven/simple-grafana-telegrambot-example
 
-Start influxdb and grafana
+Start Influxdb and Grafana
 ```bash
 cd grafana
 docker-compose up -d
