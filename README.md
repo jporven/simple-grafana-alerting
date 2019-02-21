@@ -3,9 +3,10 @@
 Simple example of grafana alerting to telegram and telegram bot command.
 
 
-#####Introduction
+###Introduction
 **Clone repository:**
 https://github.com/jporven/simple-grafana-telegrambot-example
+
 Start influxdb and grafana
 ```bash
 cd grafana
