@@ -90,4 +90,5 @@ sudo chown 472:472 grafana/data/grafana
 References
 1. https://stackoverflow.com/questions/32423837/telegram-bot-how-to-get-a-group-chat-id
 2. https://github.com/python-telegram-bot/python-telegram-bot
+3. https://community.grafana.com/t/telegram-alert-channel-configuration/242
    
