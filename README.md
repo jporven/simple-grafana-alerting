@@ -46,20 +46,29 @@ https://api.telegram.org/bot<YourBOTToken>/getUpdates
 
 Send a dummy mensaje to a bot
 example: /start
-Get updates
+Get bot id
 Example URL:
 ```bash
- curl https://api.telegram.org/bot732375761:AAGNBmRWGDyIZb-i9evBbZ1N9JJqNoNxjdE/getUpdates
+ curl https://api.telegram.org/bot732375761:AAGNBmRWGDyIZb-i9evBbZ1N9JJqNoNxjdE/getMe
 ```
 Example of curl response:
 ```json
 "message":{"message_id":9,"from":{"id":592642742,"is_bot":false,"first_name":"Joe-Bel","language_code":"en"},
 "chat":{"id":592642742,"first_name":"Joe-Bel","type":"private"},"date":1550747829,"text":"/help","entities":[{"offset":0,"length":5,"type":"bot_command"}]}}]}
+
+{"ok":true,"result":{"id":7801555555,"is_bot":true,"first_name":"grFnlerting","username":"grafanaalerting_bot"}}
+```
+```bash
+ curl https://api.telegram.org/bot732375761:AAGNBmRWGDyIZb-i9evBbZ1N9JJqNoNxjdE/getUpdates
+```
+```json
+"message":{"message_id":9,"from":{"id":12345678,"is_bot":false,"first_name":"Joe-Bel","language_code":"en"},
+"chat":{"id":592642742,"first_name":"Joe-Bel","type":"private"},"date":1550747829,"text":"/help","entities":[{"offset":0,"length":5,"type":"bot_command"}]}}]}
 ```
 
 Get bot ID
 In this case:
-  "id":592642742
+  "id":7801555555
 
 To get a telegram group ID the procedure is the same. Adding a bot to a group and excecute an URL call. The negative ID is asociated to a group. The group ID is used to allow access to a telegram bot only for group members. This restrictions need to be programmend using the telemgram bot API.
 
